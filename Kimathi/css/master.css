@@ -1,0 +1,74 @@
+body{
+  margin:0;
+  padding:0;
+}
+.container-fluid{
+  margin:0;
+  padding:0;
+  overflow:hidden;
+  overflow-y: hidden;
+}
+.head{
+  background-color:green;
+  position:absolute;
+  width:100%;
+  top:0%;
+  bottom:85%;
+  text-align: center;
+}
+
+.head span{
+  float:left;
+  width:45px;
+  height:45px;
+  margin:2%;
+  border:2px solid black;
+  border-radius:6px;
+}
+
+h3{
+ font-size:2em;
+ color:white;
+ font-family:'Times New Roman',sans-serif;
+}
+
+#map{
+  position: absolute;
+  left:0;
+  right:30%;
+  bottom:2%;
+  top:15%;
+}
+
+#changeColor{
+  z-index: 2;
+  position: absolute;
+  height: 4rem;
+}
+
+.control{
+  position:absolute;
+  right:0%;
+  bottom:2%;
+  left:70%;
+  top:15%;
+  border:2px solid gold;
+}
+
+.pic{
+  height:50%;
+  width:100%;
+  text-align: center;
+  border-bottom:1px solid gold;
+}
+
+.vid{
+  height:50%;
+  width:100%;
+  text-align: center;
+}
+
+h4{
+  font-size:1.2em;
+  font-family:"Times New Roman",sans-serif;
+}
